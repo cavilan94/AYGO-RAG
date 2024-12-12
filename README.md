@@ -23,6 +23,10 @@ Pasospara preaprar el entorno virtualizado:
 
 ![image](https://github.com/user-attachments/assets/189788b4-5c21-4eaa-91cf-a593d29386c9)
 
+
+Una vez creado el entorno virtualizado, se debe crear la aplicaciónRAG ¿que componentes tiene una aplicación RAG?
+
+Una aplicaicón RAG Implica dos componentes principales: indexación y recuperación y generación. El proceso de indexación incluye cargar datos, dividir el texto y almacenarlo en un almacén de vectores. El proceso de recuperación y generación implica recuperar datos relevantes del almacén de vectores y utilizar un modelo de lenguaje para generar una respuesta. El documento también proporciona instrucciones sobre cómo configurar los componentes necesarios, como un modelo de chat, un modelo de incrustación y un almacén de vectores.
 Pasos para crear la aplicación RAG
 
 1) Instalar las dependencias requeridas de langchain, por medio del siguiente comando: %pip install --quiet --upgrade langchain-text-splitters langchain-community
@@ -36,6 +40,14 @@ Pasos para crear la aplicación RAG
 Donde getpass.getpass() es remplazado por la llave generada en OPEN AI, como se puede ver en el siguiente ejemplo:
 
 ![image](https://github.com/user-attachments/assets/3a757caf-196c-4088-82d0-7133eaeb765f)
+
+3) Instalar las dependencias para el langchain-core, por medio del siguiente comando: pip install -qU langchain-core
+
+![image](https://github.com/user-attachments/assets/decb0b55-fea1-4dae-867c-400bfb3456bb)
+
+4) Crear un pipeline apra el proceso de indexación
+
+![image](https://github.com/user-attachments/assets/3a005dfb-1066-4cd8-9b50-975347e3e81c)
 
 
 
