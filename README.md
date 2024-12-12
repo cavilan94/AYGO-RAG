@@ -1,11 +1,15 @@
 Retrieval-augmented generation (RAG) and Vector Databases
 
-En este documento se indicaran los pasos para crear una aplicación de tipo RAG (Retrieval Augmented Generation) para la gestion de preguntas y respuestas por medio de un  motor basado en IA, el proceso fue realziado en un equipo Windows, los comandos peudenc ambiar si se desea ejecutar en otro SO.. 
+En este documento se indicaran los pasos para crear una aplicación de tipo RAG (Retrieval Augmented Generation) para la gestion de preguntas y respuestas por medio de un  motor basado en OPEN IA, usando LLM (Large Language Model) el cual es un modelo de procesamiento de lenguaje, el cual ha sido entrenado con base en grandes volumenes de información, el proceso fue realziado en un equipo Windows, los comandos peudenc ambiar si se desea ejecutar en otro SO. 
 
 Pre requisitos para poder geenrar la aplicación:
 1) Python versión 3.11
 2) Una clave API de OpenAI.
 3) Editor de código,para compilar las diferentes partes para la instalación de dependencias y generación de componentes.
+
+Diagrama de la aplicación RAG.
+
+![image](https://github.com/user-attachments/assets/1ad07ca5-a39b-4fbd-ab4d-7f81f21f3492)
 
 Pasos para preaprar el entorno virtualizado:
 
