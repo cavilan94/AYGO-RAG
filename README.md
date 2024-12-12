@@ -26,7 +26,7 @@ Pasospara preaprar el entorno virtualizado:
 
 Una vez creado el entorno virtualizado, se debe crear la aplicaciónRAG ¿que componentes tiene una aplicación RAG?
 
-Una aplicaicón RAG Implica dos componentes principales: indexación y recuperación y generación. El proceso de indexación incluye cargar datos, dividir el texto y almacenarlo en un almacén de vectores. El proceso de recuperación y generación implica recuperar datos relevantes del almacén de vectores y utilizar un modelo de lenguaje para generar una respuesta. El documento también proporciona instrucciones sobre cómo configurar los componentes necesarios, como un modelo de chat, un modelo de incrustación y un almacén de vectores.
+Una aplicaicón RAG Implica dos componentes principales: indexación y recuperación/generación. El proceso de indexación incluye cargar datos, dividir el texto y almacenarlo en un almacén de vectores. El proceso de recuperación/generación implica recuperar datos relevantes del almacén de vectores y utilizar un modelo de lenguaje para generar una respuesta. El documento también proporciona instrucciones sobre cómo configurar los componentes necesarios, como un modelo de chat, un modelo de incrustación y un almacén de vectores.
 Pasos para crear la aplicación RAG
 
 1) Instalar las dependencias requeridas de langchain, por medio del siguiente comando: %pip install --quiet --upgrade langchain-text-splitters langchain-community
